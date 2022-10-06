@@ -9,11 +9,11 @@ string middle(string str) {
 	string middle_str;	
 	if (size % 2 == 0) { //even
 		middle_str = str.substr((int)(size-1)/2, 2);
-		cout << middle_str;	
+		//cout << middle_str;	
 	}
 	else {
 		middle_str = str.substr((size-1)/2, 1);
-		cout << middle_str;
+		//cout << middle_str;
 	}
 	return middle_str;
 }

@@ -6,13 +6,16 @@ using namespace std;
 string middle(string str) {
 	int size = str.size();
 	
+	string middle_str;	
 	if (size % 2 == 0) { //even
-		cout << str.substr((int)(size-1)/2, 2) << endl;	
+		middle_str = str.substr((int)(size-1)/2, 2);
+		cout << middle_str << endl;	
 	}
 	else {
-		cout << str.substr((size-1)/2, 1) << endl;
+		middle_str = str.substr((size-1)/2, 1);
+		cout << middle_str << endl;
 	}
-	return "";
+	return middle_str;
 }
 
 int main() {

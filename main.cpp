@@ -1,3 +1,12 @@
+/*
+ * Author: Anita Prova
+ * Course: CSCI-135
+ * Instructor: Genady Maryash
+ * Assignment: Homework E5.6
+ * The program prints the middle of a string.
+ * 
+ */
+
 #include <iostream>
 #include <string>
 
